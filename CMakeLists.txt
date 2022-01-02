@@ -6,9 +6,9 @@ set(Boost_USE_STATIC_LIBS ON)
 
 find_package(Boost REQUIRED thread)
 
-message(" debug")
-message(" ${Boost_INCLUDE_DIRS})
-message(" ${Boost_LIBRARIES})
+message("Debug:")
+message("${Boost_INCLUDE_DIRS}")
+message("${Boost_LIBRARIES}")
 
 include_directories(${Boost_INCLUDE_DIRS})
 
